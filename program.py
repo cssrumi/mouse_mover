@@ -25,7 +25,7 @@ def main():
     while True:
         temp = pyautogui.position()
         sleep(4 * 60)
-        if temp != pyautogui.position():
+        if temp == pyautogui.position():
             move(10)
 
 
